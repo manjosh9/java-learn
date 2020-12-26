@@ -61,9 +61,9 @@ public class TestMain2 {
 
 	public static void main(String[] args) {
 		Customer cust1 = new Customer();
-		cust1.createCust(11096, "Manthan", "Indore", "8989504658");
+		cust1.createCust(11096, "Manthan", "Indore", "1234567890");
 		Customer cust2 = new Customer();
-		cust2.createCust(13004, "Tony", "NYC", "3345700823");
+		cust2.createCust(13004, "Tony", "NYC", "1987654321");
 
 		Basket bskt = new Basket(cust1);
 		Basket bskt_cust2 = new Basket(cust2);
